@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Summary</h1>
+    <div class="summary-wrapper">
+        <div class="original-container">
+            <h2>Original Text</h2>
+            <div class="text-container">
+                <p class="original-text">{{ original_text }}</p>
+            </div>
+            <p class="word-count">Word Count: {{ original_word_count }}</p>
+        </div>
+
+        <div class="summary-container">
+            <h2>Summarized Text</h2>
+            <div class="text-container">
+                <p class="summary">{{ summary }}</p>
+            </div>
+            <p class="word-count">Word Count: {{ summarized_word_count }}</p>
+        </div>
+    </div>
+</body>
+</html>
