@@ -74,7 +74,7 @@ input[type="submit"]:hover {
 
 .summary-container {
     background-color: #3D5280; 
-    text-align: center; 
+    text-align: justify; 
     order: 2;
 }
 
@@ -87,7 +87,7 @@ input[type="submit"]:hover {
 .original-container {
     background-color: #8697C4; 
     color: #fff; 
-    text-align: center; 
+    text-align: justify; 
     order: 1;
 }
 
